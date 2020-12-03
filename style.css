@@ -1,0 +1,137 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #70e1f5, #ffd194);
+    padding: 0 1em;
+}
+.navigation .pp {
+    width: 2.5em;
+    padding-top: 10px;  
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    box-shadow: -5px -5px 15px #92c7c7, 5px 5px 15px #92c7c7;
+    padding: 4em;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    padding: 0.4em;
+    
+}
+.box a {
+    width: 35rem;
+    text-decoration: none;
+    color: #003f45;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+     
+}
+.Image {
+    width: 3.5em;
+    cursor: pointer;
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+    
+}
+.Image:hover 
+{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    padding-top: 4em;
+    
+}
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 95px 0 15px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+
+ a {
+    font-size: 1.7em;
+    line-height: 200%;
+    text-decoration: none;
+    color: #003f45;
+ 
+}
+.Intro{
+    font-size: 1.7em;
+    line-height: 200%;
+    text-decoration: none;
+    color: #003f45;
+}
+
+.liste-media {
+    position: relative;
+    right: 10px;
+    
+    
+}
+.liste-media img {
+    width: 35px;
+    margin: 5px 23px;
+    
+}
+
+.liste-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.liste-media a:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+@media screen and (max-width: 1300px) {
+
+    .contenu-footer {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .contenu-footer {
+        width: 320px;
+    }
+    
+}
