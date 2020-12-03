@@ -71,7 +71,7 @@ btnGo.addEventListener('click', () => {
 btnPause.addEventListener('click', () => {
 
     if(pause === false){
-        btnPause.innerText = "Play";
+        btnPause.innerText = "Reprendre";
     } else if(pause === true){
         btnPause.innerText = "Pause";
     }
