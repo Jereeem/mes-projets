@@ -34,7 +34,7 @@ h1 {
     margin-bottom: 10px;
     color: #333;
     padding: 0.4em;
-    margin-top: -75px;
+    margin-top: -40px;
 }
 .box a {
     width: 35rem;
@@ -84,7 +84,7 @@ footer {
 
 
  a {
-    font-size: 1.7em;
+    
     line-height: 200%;
     text-decoration: none;
     color: #003f45;
