@@ -14,8 +14,8 @@ body {
 .navigation .pp {
     width: 4.25em;
     padding-top: 10px;  
-    margin-left: 15px;
     text-decoration: none;
+    float: left;
 }
 
 .box {
