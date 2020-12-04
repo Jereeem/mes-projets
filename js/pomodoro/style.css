@@ -30,7 +30,7 @@ h2 {
 .affichage {
     background: #f1f1f1;
     margin: 50px auto;
-    width: 70%;
+    width: 100%;
     max-width: 900px;
     min-width: 500px;
     display: flex;
@@ -91,4 +91,7 @@ h2 {
         float: left;
  
     }
+    .affichage {
+    max-width: 600px;
+}
 }
