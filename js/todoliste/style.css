@@ -29,7 +29,7 @@ form {
     margin: 0 auto;
     width: 70%;
     max-width: 1200px;
-    min-width: 400px;
+    min-width: 250px;
 }
 form label {
     display: block;
@@ -82,4 +82,23 @@ li span {
 
 li.finDeTache span {
     text-decoration: line-through;
+}
+@media screen and (max-width: 1300px) {
+
+    body {
+        
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 14vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        background: #605C3C;
+    }
 }

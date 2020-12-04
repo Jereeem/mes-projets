@@ -7,9 +7,7 @@
     width: 4.25em;
     padding-top: 10px;  
     text-decoration: none;
-    
-    margin-right: 113.75em;
-    
+
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     background: #333;
     padding: 0 1em;
 }
@@ -32,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container-couleurs {
     flex-direction: column;
@@ -85,4 +85,11 @@ span {
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
+}
+@media screen and (max-width: 1300px) {
+
+    body {
+        
+        flex-wrap: wrap;
+    }
 }

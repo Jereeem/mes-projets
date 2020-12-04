@@ -72,15 +72,14 @@ h2 {
 @media screen and (max-width: 1300px) {
 
     body {
-        width: 700px;
+        
         flex-wrap: wrap;
     }
 }
 
 
 @media screen and (max-width: 800px) {
-    .contenu-footer {
-        width: 320px;
+    h1 {
+        font-size: 14vw;
     }
-    
 }
