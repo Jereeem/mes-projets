@@ -82,4 +82,11 @@ h2 {
     h1 {
         font-size: 14vw;
     }
+    h2 {
+        font-size: 8vw;
+    }
+    .navigation .pp {
+        width: 3em;
+        padding-top: 10px;  
+    }
 }

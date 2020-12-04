@@ -93,3 +93,9 @@ span {
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 800px) {
+.navigation .pp {
+    width: 3em;
+    padding-top: 10px;  
+}
+}

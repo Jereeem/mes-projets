@@ -91,4 +91,8 @@ li:nth-child(1){
     h1 {
         font-size: 10vw;
     }
+    .navigation .pp {
+        width: 3em;
+        padding-top: 10px;  
+    }
 }
