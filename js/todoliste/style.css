@@ -98,7 +98,9 @@ li.finDeTache span {
     }
     .navigation .pp {
         width: 3em;
-        padding-top: 10px;  
+        padding-top: 10px; 
+        float: left;
+ 
     }
 }
 @media screen and (max-width: 400px) {

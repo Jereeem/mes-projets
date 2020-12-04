@@ -94,5 +94,7 @@ li:nth-child(1){
     .navigation .pp {
         width: 3em;
         padding-top: 10px;  
+        float: left;
+
     }
 }
