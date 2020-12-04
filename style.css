@@ -12,7 +12,7 @@ body {
     padding: 0 1em;
 }
 .navigation .pp {
-    width: 2.5em;
+    width: 4.25em;
     padding-top: 10px;  
     text-decoration: none;
 }
@@ -120,18 +120,4 @@ footer {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
-@media screen and (max-width: 1300px) {
 
-    .contenu-footer {
-        width: 700px;
-        flex-wrap: wrap;
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    .contenu-footer {
-        width: 320px;
-    }
-    
-}
