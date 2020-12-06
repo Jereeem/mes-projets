@@ -97,4 +97,11 @@ li:nth-child(1){
         float: left;
 
     }
+    .carte {
+        width: 370px;
+    }
+    input {
+       
+        width: 90%;
+    }
 }
