@@ -96,7 +96,7 @@ h2 {
     min-width: 600px;
 }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .affichage {
         max-width: 450px;
         min-width: 350px;
