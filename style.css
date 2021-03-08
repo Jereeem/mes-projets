@@ -8,8 +8,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    
     padding: 0 1em;
+    background: #f7f7f7;
 }
 .navigation .pp {
     width: 4.25em;
@@ -19,14 +19,13 @@ body {
 }
 
 .box {
-    background:#fbfbfb;
+    
     display: flex;
-    box-shadow: -5px -5px 15px #dbdada, 5px 5px 15px #dbdada;
     padding: 4em;
     border-radius: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     
 }
 h1 {
@@ -75,7 +74,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     font-size: 20px;
-    padding: 95px 0 15px;
+    padding: 30px 0 15px;
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;

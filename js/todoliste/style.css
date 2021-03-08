@@ -104,8 +104,3 @@ li.finDeTache span {
  
     }
 }
-@media screen and (max-width: 400px) {
-    body {
-        background: #605C3C;
-    }
-}

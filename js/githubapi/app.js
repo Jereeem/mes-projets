@@ -9,8 +9,6 @@ async function dataGithub(utilisateur){
 
     const reponse = await fetch(`${APICALL}${utilisateur}`);
     const data = await reponse.json();
-    
-    
 
     creationCarte(data);
 
